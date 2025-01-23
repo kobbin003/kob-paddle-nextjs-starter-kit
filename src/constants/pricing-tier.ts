@@ -16,7 +16,7 @@ export const PricingTier: Tier[] = [
     description: 'Ideal for individuals who want to get started with simple design tasks.',
     features: ['1 workspace', 'Limited collaboration', 'Export to PNG and SVG'],
     featured: false,
-    priceId: { month: 'pri_01hsxyh9txq4rzbrhbyngkhy46', year: 'pri_01hsxyh9txq4rzbrhbyngkhy46' },
+    priceId: { month: 'pri_01jj9k74xf5gjyak8aaqtn7bzz', year: 'pri_01jj9km85d1jwgn93rdxg5fwp0' },
   },
   {
     name: 'Pro',
@@ -25,7 +25,10 @@ export const PricingTier: Tier[] = [
     description: 'Enhanced design tools for scaling teams who need more flexibility.',
     features: ['Integrations', 'Unlimited workspaces', 'Advanced editing tools', 'Everything in Starter'],
     featured: true,
-    priceId: { month: 'pri_01hsxycme6m95sejkz7sbz5e9g', year: 'pri_01hsxyeb2bmrg618bzwcwvdd6q' },
+    priceId: {
+      month: 'pri_01jj9k57w4f5we949dpmdq48x3a3zpfydz',
+      year: 'pri_01jj9kn7e4220jc996b43fnvp3',
+    },
   },
   {
     name: 'Advanced',
@@ -40,6 +43,6 @@ export const PricingTier: Tier[] = [
       'Everything in Pro',
     ],
     featured: false,
-    priceId: { month: 'pri_01hsxyff091kyc9rjzx7zm6yqh', year: 'pri_01hsxyfysbzf90tkh2wqbfxwa5' },
+    priceId: { month: 'pri_01jj9k57w4f5we949dpmdq48x3', year: 'pri_01jj9kq1grwfpdv8545yb41knq' },
   },
 ];
